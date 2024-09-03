@@ -1,0 +1,62 @@
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #00b2d2; /* Background color */
+    margin: 0;
+    padding: 0;
+    color: #f7f7f7; /* Text color */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Remove scrolling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%; /* Container width */
+    height: 50vh; /* Container height */
+    padding: 20px;
+    background-color: #1c1c1c; /* Container background */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); /* Shadow effect */
+    border-radius: 12px; /* Rounded corners */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #f7f7f7;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #b0c4de;
+    margin-bottom: 30px;
+}
+
+.resume-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #00d1e1; /* Button text color */
+    background-color: #2e2e2e; /* Button background */
+    border: 2px solid #00d1e1; /* Button border */
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #00d1e1;
+    color: #1c1c1c;
+    transform: scale(1.05);
+}
